@@ -16,7 +16,7 @@ html, body {
     height: 100vh;
     background-image: url(images/adil\(1\)\(1\).png);
     background-size: contain;
-    background-position: center;
+    background-position: right;
     background-repeat:no-repeat;
 }
 .container{
@@ -849,4 +849,5 @@ nav .fas{
     margin-top: -40px;
 >>>>>>> 0ae68e8 (Updated code again1)
 }
+
 
