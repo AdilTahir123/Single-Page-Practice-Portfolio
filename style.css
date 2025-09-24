@@ -14,7 +14,7 @@ html, body {
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/adil.jfif(1)(1).png);
+    background-image: url(images/adil\(1\)\(1\).png);
     background-size: contain;
     background-position: center;
     background-repeat:no-repeat;
@@ -849,3 +849,4 @@ nav .fas{
     margin-top: -40px;
 >>>>>>> 0ae68e8 (Updated code again1)
 }
+
