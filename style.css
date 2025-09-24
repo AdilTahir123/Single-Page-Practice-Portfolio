@@ -14,9 +14,10 @@ html, body {
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
-    background-size: cover;
+    background-image: url(images/adil.jfif(1)(1).png);
+    background-size: contain;
     background-position: center;
+    background-repeat:no-repeat;
 }
 .container{
     padding: 10px 10% ;
@@ -421,6 +422,7 @@ nav .fas{
     color:green;
     display: block;
     margin-top: -40px;
+
 =======
 * {
   margin: 0;
