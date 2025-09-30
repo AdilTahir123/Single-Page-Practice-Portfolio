@@ -351,16 +351,16 @@ nav .fas{
 /* ...............Css for small screen............. */
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(images/adil.jfif\(1\)\(1\).png);
-        background-position: right;
-        background-size:contain;
+        background-image:none;
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 50%;
+        text-align: center;
+        font-size: 50px;
+        line-height: 70px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav .fas{
         display: block;
