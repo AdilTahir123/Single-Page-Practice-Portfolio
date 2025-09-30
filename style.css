@@ -351,7 +351,9 @@ nav .fas{
 /* ...............Css for small screen............. */
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(images/phone-background.png);
+        background-image:url(images/adil.jfif\(1\)\(1\).png);
+        background-position: center;
+        background-size: cover;
     }
     .header-text{
         margin-top: 100%;
