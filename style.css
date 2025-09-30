@@ -352,8 +352,8 @@ nav .fas{
 @media only screen and (max-width:600px){
     #header{
         background-image:url(images/adil.jfif\(1\)\(1\).png);
-        background-position: center;
-        background-size: cover;
+        background-position: right;
+        background-size:contain;
     }
     .header-text{
         margin-top: 100%;
