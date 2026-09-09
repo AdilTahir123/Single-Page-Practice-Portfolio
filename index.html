@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <h1 >My Portfolio</h1>
+                <h1>My Portfolio</h1>
                 <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -31,201 +33,234 @@
     <!-- About -->
     <div id="about">
         <div class="container">
-        <div class="row">
-        <div class="about-col-1">
-            <img src="images/adil(1)(1).png" alt="User Image">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/adil(1)(1).png" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Web Developer from Pakistan,Cover Basic Of Web Development from School and College Studies
+                        And Finally learn From Youtube With Projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick='opentab("skills")'> Skills</p>
+                        <p class="tab-links" onclick='opentab("experience")'> Experience</p>
+                        <p class="tab-links" onclick='opentab("education")'> Education</p>
+                    </div>
+                <div class="tab-content active-tab" id="skills">
+    <ul>
+        <li>
+            <span>HTML, CSS & JavaScript</span><br>
+            Building the foundation of modern websites
+        </li>
+
+        <li>
+            <span>Web Development</span><br>
+            Building responsive and user-friendly websites
+        </li>
+
+        <li>
+            <span>React & Next.js 15</span><br>
+            Creating modern and dynamic web applications
+        </li>
+    </ul>
+</div>
+                    <div class="tab-content" id='experience'>
+                        <ul>
+                            <li><span>2024</span><br>Started exploring web development</li>
+                            <li><span>2025</span><br>Start Creating projects</li>
+                            <li><span>2026</span><br>Continued learning and deepening my understanding of web
+                                development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li>
+                                <span>2022–2024</span><br>
+                                Matriculation and Intermediate Education
+                            </li>
+
+                            <li>
+                                <span>2026</span><br>
+                                Completed an Associate Degree in Computer Science (ADP-CS) from PGC, affiliated with UCP
+                            </li>
+
+                            <li>
+                                <span>2026</span><br>
+                                Applied for Post-ADP Studies at UCP
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>I am a Web Developer from Pakistan,Cover Basic Of Web Development from School and College Studies And Finally learn From Youtube With Projects.</p>
-            <div class="tab-titles">
-                <p class="tab-links active-link" onclick='opentab("skills")'> Skills</p>
-                <p class="tab-links" onclick='opentab("experience")'> Experience</p>
-                <p class="tab-links" onclick='opentab("education")'> Education</p>
-            </div>
-            <div class="tab-content active-tab" id="skills">
-                <ul>
-                    <li><br>HTML CSS JAVASCRIPT</li>
-                    <li><span>Web Development</span><br>Building responsive websites</li>
-                    <li><span>React and Next.js 15</span><br>Creating dynamic web applications</li>
-                </ul>
-            </div>
-             <div class="tab-content" id='experience'>
-                <ul>
-                    <li><span>2024</span><br>Web Development Bootcamp</li>
-                    <li><span>2025</span><br>Start Creating projects</li>
-                    <li><span>2025</span><br>Understanding Web Development Deep Dive</li>
-                </ul>
-            </div>
-             <div class="tab-content" id="education">
-                <ul>
-                    <li><span>2022-2024</span><br>Matric and Intermediate Certificate</li>
-                    <li><span>2024</span><br>Web Development Bootcamp and Office Management</li>
-                    <li><span>2025</span><br>Project Based Studies</li>
-                </ul>
-            </div>
-        </div>
-        </div>
-    </div>
-    <!-- Services -->
-     <div id="services">
-        <div class="container">
+     <!-- Services -->
+<div id="services">
+    <div class="container">
         <h1 class="sub-title">Services</h1>
+
         <div class="services-list">
+
             <div>
                 <i class="fa-solid fa-code"></i>
-                <h2>Web Developer</h2>
-                <p>Static And dynamic websites</p>
+                <h2>Web Development</h2>
+                <p>Building responsive and user-friendly websites</p>
                 <a href="#portfolio">Learn More</a>
             </div>
+
             <div>
                 <i class="fa-solid fa-crop-simple"></i>
-                <h2>Html Css And Javascript</h2>
-                <p>For Static and simple websites</p>
+                <h2>HTML, CSS & JavaScript</h2>
+                <p>Creating modern, responsive, and interactive websites</p>
                 <a href="#portfolio">Learn More</a>
             </div>
+
             <div>
                 <i class="fa-brands fa-app-store"></i>
-                <h2>React and Next.js</h2>
-                <p>For Creating Big and dynamic web applications</p>
+                <h2>React & Next.js</h2>
+                <p>Creating modern and dynamic web applications</p>
                 <a href="#portfolio">Learn More</a>
             </div>
-        </div>
-     </div>
-     <!-- ...........portfolio ........... -->
-      <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                      <div class="work">
-                    <img src="images/work-2.png" alt="Work 2">
-                    <div class="layer">
-                        <h3>Food Delivery Website</h3>
-                        <p>Online Food Delivery Platform</p>
-                        <a href="https://food-delivery-full-stack12.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-1.png" alt="Work 1">
-                    <div class="layer">
-                        <h3>Tiktok Project</h3>
-                        <p>Available id name programmer2012</p>
-                        <a href="https://tiktok-git-main-adiltahir123s-projects.vercel.app?_vercel_share=DL1EnsY6D4TCzAjYWarUwWHd1t1wYl7S"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/work-3.png" alt="Work 3">
-                    <div class="layer">
-                        <h3>Image Search Engine</h3>
-                        <p>Search images from various sources.</p>
-                        <a href="https://image-search-engine-wfkm-git-main-adiltahir123s-projects.vercel.app?_vercel_share=csXaxZontdZmVZm6bovt6R882QxzAk6b"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-            </div>
-            <a href="https://small-valuable-practice-project-git-main-adiltahir123s-projects.vercel.app?_vercel_share=DEe1r6lgY6A4adNsx9iAdzmZiNZ1meiD" class="btn">See More</a>
-        </div>
-      </div>
- <!-- ..............Contact............. -->
-  <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="content-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>adiltahirmaqbool@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i>0308-7475047</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/share/1FE5qJRxTw/?mibextid=wwXIfr"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/cadet_adil_tahir?igsh=MjdleGZncW1hODV0&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@programmer2012?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://github.com/AdilTahir123"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <a href="https://github.com/AdilTahir123" download="https://github.com/AdilTahir123" class="btn btn2">Download CV</a>
-            </div>
-            <div class="content-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" placeholder="Your Name" name="Name" required>
-                    <input type="email" placeholder="Your Email" name="Email" required>
-                    <textarea placeholder="Your Message" rows="6" name="Message" required></textarea>
-                    <button type="submit" class="btn btn2">Send Message</button>
-                </form>
-                <span id="msg"></span>
-            </div>
-        </div>
 
+        </div>
     </div>
-    <div class="copy">
-        <p>&copy; 2025 Cadet Adil Tahir. All Rights Reserved <i class="fa-solid fa-heart"></i></p>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js">
-  </script>
- <script>
-let t1 = gsap.timeline();
+</div>
+            <!-- ...........portfolio ........... -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work-2.png" alt="Work 2">
+                            <div class="layer">
+                                <h3>Food Delivery Website</h3>
+                                <p>Online Food Delivery Platform</p>
+                                <a href="https://food-delivery-full-stack12.vercel.app/"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-1.png" alt="Work 1">
+                            <div class="layer">
+                                <h3>Tiktok Project</h3>
+                                <p>Available id name programmer2012</p>
+                                <a
+                                    href="https://tiktok-git-main-adiltahir123s-projects.vercel.app?_vercel_share=DL1EnsY6D4TCzAjYWarUwWHd1t1wYl7S"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="images/work-3.png" alt="Work 3">
+                            <div class="layer">
+                                <h3>Image Search Engine</h3>
+                                <p>Search images from various sources.</p>
+                                <a
+                                    href="https://image-search-engine-wfkm-git-main-adiltahir123s-projects.vercel.app?_vercel_share=csXaxZontdZmVZm6bovt6R882QxzAk6b"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://small-valuable-practice-project-git-main-adiltahir123s-projects.vercel.app?_vercel_share=DEe1r6lgY6A4adNsx9iAdzmZiNZ1meiD"
+                        class="btn">See More</a>
+                </div>
+            </div>
+            <!-- ..............Contact............. -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="content-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-envelope"></i>adiltahirmaqbool@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>0308-7475047</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/share/1FE5qJRxTw/?mibextid=wwXIfr"><i
+                                        class="fa-brands fa-facebook-f"></i></a>
+                                <a
+                                    href="https://www.instagram.com/cadet_adil_tahir?igsh=MjdleGZncW1hODV0&utm_source=qr"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@programmer2012?is_from_webapp=1&sender_device=pc"><i
+                                        class="fa-brands fa-tiktok"></i></a>
+                                <a href="https://github.com/AdilTahir123"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <a href="./images/my-cv1.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="content-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" placeholder="Your Name" name="Name" required>
+                                <input type="email" placeholder="Your Email" name="Email" required>
+                                <textarea placeholder="Your Message" rows="6" name="Message" required></textarea>
+                                <button type="submit" class="btn btn2">Send Message</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
 
-t1.from('nav .logo', {
-    y: -100,
-    opacity: 0,
-    duration: 1,
-    ease: "power2.out",
-});
+                </div>
+                <div class="copy">
+                    <p>&copy; 2026 Cadet Adil Tahir. All Rights Reserved <i class="fa-solid fa-heart"></i></p>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+                integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js">
+            </script>
+            <script>
+                let t1 = gsap.timeline();
 
-t1.from('ul li', {
-    y: -100,
-    opacity: 0,
-    duration: 1,
-    stagger: 0.4,
-    ease: "power2.out"
-});
+                t1.from('nav .logo', {
+                    y: -100,
+                    opacity: 0,
+                    duration: 1,
+                    ease: "power2.out",
+                });
 
+                t1.from('ul li', {
+                    y: -100,
+                    opacity: 0,
+                    duration: 1,
+                    stagger: 0.4,
+                    ease: "power2.out"
+                });
+                let tablinks = document.querySelectorAll('.tab-links');
+                let tabcontents = document.querySelectorAll('.tab-content');
+                function opentab(tabName) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove('active-link');
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove('active-tab');
+                    }
+                    event.currentTarget.classList.add('active-link');
+                    document.getElementById(tabName).classList.add('active-tab');
+                }
+                let sidemenu = document.getElementById("sidemenu");
+                function openmenu() {
+                    sidemenu.style.right = "0";
+                }
+                function closemenu() {
+                    sidemenu.style.right = "-250px";
+                }
+            </script>
+            <script src="https://kit.fontawesome.com/3d6cba229e.js" crossorigin="anonymous"></script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyVdvlP7WEhK-AOAeekOdMvvTtHdC1MhOpLzxPw-5mAd3Fw_oc1p4qTjV6Luq2SngSY/exec';
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById('msg');
 
-
-
-
-
-
-        let tablinks= document.querySelectorAll('.tab-links');
-        let tabcontents= document.querySelectorAll('.tab-content');
-        function opentab(tabName){
-            for(tablink of tablinks){
-                tablink.classList.remove('active-link');
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove('active-tab');
-            }
-            event.currentTarget.classList.add('active-link');
-            document.getElementById(tabName).classList.add('active-tab');
-        }
-        let sidemenu= document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
-        }
-        function closemenu(){
-            sidemenu.style.right="-250px";
-        }
-    </script>
-    <script src="https://kit.fontawesome.com/3d6cba229e.js" crossorigin="anonymous"></script>
-    <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyVdvlP7WEhK-AOAeekOdMvvTtHdC1MhOpLzxPw-5mAd3Fw_oc1p4qTjV6Luq2SngSY/exec';
-  const form = document.forms['submit-to-google-sheet']
-  const msg=document.getElementById('msg');
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        msg.innerHTML='Message Sent Successfully 💖 ';
-        setTimeout(function(){
-            msg.innerHTML='';
-        },3000);
-        form.reset();
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            msg.innerHTML = 'Message Sent Successfully 💖 ';
+                            setTimeout(function () {
+                                msg.innerHTML = '';
+                            }, 3000);
+                            form.reset();
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
 
 </body>
 
 </html>
-
-
